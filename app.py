@@ -19,7 +19,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from imblearn.over_sampling import RandomOverSampler
 
 # Load the data from the local file
-file_path = "Downloads/sfari_genes.csv"  # Update with the correct path to your file
+file_path = "sfari_genes.csv"  # Update with the correct path to your file
 genes = pd.read_csv(file_path)
 
 # Drop unnecessary columns
